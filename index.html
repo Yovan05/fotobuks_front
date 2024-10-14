@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotobuks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabecera con logo, menú y perfil -->
+    <header>
+        <div class="header-left">
+            <img src="logo.png" alt="Fotobuks Logo" class="logo"> <!-- Asegúrate de tener este logo -->
+            <nav class="menu">
+                <a href="#">Fotógrafos</a>
+                <a href="#">Clientes</a>
+                <a href="#">Álbums</a>
+            </nav>
+        </div>
+        <div class="header-center">
+            <input type="text" placeholder="Buscar..." class="search-bar">
+        </div>
+        <div class="header-right">
+            <div class="user-profile">
+                <img src="profile.png" alt="Perfil de usuario" class="profile-pic"> <!-- Coloca tu imagen de perfil aquí -->
+                <span>Perfil</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Cuerpo de la página con la tabla de clientes -->
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Teléfono</th>
+                    <th>Evento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Juan</td>
+                    <td>Pérez</td>
+                    <td>123-456-7890</td>
+                    <td>Boda</td>
+                </tr>
+                <tr>
+                    <td>María</td>
+                    <td>González</td>
+                    <td>098-765-4321</td>
+                    <td>Graduación</td>
+                </tr>
+                <!-- Puedes añadir más filas aquí -->
+            </tbody>
+        </table>
+    </main>
+
+    <!-- Botón de salir -->
+    <footer>
+        <button id="salir-btn">Salir</button>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
